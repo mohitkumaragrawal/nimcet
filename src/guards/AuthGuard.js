@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { Navigate, useLocation } from 'react-router-dom';
 // hooks
 import useAuth from '../hooks/useAuth';
+// pages
+import Login from '../pages/auth/Login';
 // components
 import LoadingScreen from '../components/LoadingScreen';
 
@@ -12,7 +14,7 @@ AuthGuard.propTypes = {
   children: PropTypes.node,
 };
 
-export default function AuthGuard({ children, type }) {
+export default function AuthGuard({ children }) {
   const { isAuthenticated, isInitialized } = useAuth();
   const { pathname } = useLocation();
   const [requestedLocation, setRequestedLocation] = useState(null);
@@ -22,11 +24,10 @@ export default function AuthGuard({ children, type }) {
   }
 
   if (!isAuthenticated) {
-    let loginUrl = '/faculty/login';
-    if (type === 'student') {
-      loginUrl = '/student/login';
+    if (pathname !== requestedLocation) {
+      setRequestedLocation(pathname);
     }
-    return <Navigate to={loginUrl} />;
+    return <Login />;
   }
 
   if (requestedLocation && pathname !== requestedLocation) {
@@ -34,6 +35,5 @@ export default function AuthGuard({ children, type }) {
     return <Navigate to={requestedLocation} />;
   }
 
-  // TODO: check if user's role matches type, if not show some popup saying "NOT Allowed"
   return <>{children}</>;
 }

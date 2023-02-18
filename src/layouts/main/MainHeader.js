@@ -1,12 +1,21 @@
-import { NavLink } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 // @mui
 import { styled, useTheme } from '@mui/material/styles';
-import { Box, AppBar, Toolbar, Container, Link, Typography } from '@mui/material';
+import { Box, Button, AppBar, Toolbar, Container } from '@mui/material';
+// hooks
+import useOffSetTop from '../../hooks/useOffSetTop';
+import useResponsive from '../../hooks/useResponsive';
 // utils
 import cssStyles from '../../utils/cssStyles';
 // config
 import { HEADER } from '../../config';
-import useAuth from '../../hooks/useAuth';
+// components
+import Logo from '../../components/Logo';
+import Label from '../../components/Label';
+//
+import MenuDesktop from './MenuDesktop';
+import MenuMobile from './MenuMobile';
+import navConfig from './MenuConfig';
 
 // ----------------------------------------------------------------------
 
@@ -34,31 +43,23 @@ const ToolbarShadowStyle = styled('div')(({ theme }) => ({
   boxShadow: theme.customShadows.z8,
 }));
 
-const LinkStyle = styled(Link)(({ theme }) => ({
-  ...theme.typography.subtitle1,
-  color: theme.palette.primary,
-  marginRight: theme.spacing(5),
-  transition: theme.transitions.create('all', {
-    duration: theme.transitions.duration.shorter,
-  }),
-  '&:hover': {
-    opacity: 0.48,
-    textDecoration: 'none',
-  },
-}));
-
 // ----------------------------------------------------------------------
 
 export default function MainHeader() {
-  const isOffset = true;
-  const theme = useTheme();
-  const auth = useAuth();
+  const isOffset = useOffSetTop(HEADER.MAIN_DESKTOP_HEIGHT);
 
-  console.log(auth.user);
+  const theme = useTheme();
+
+  const { pathname } = useLocation();
+
+  const isDesktop = useResponsive('up', 'md');
+
+  const isHome = pathname === '/';
 
   return (
     <AppBar sx={{ boxShadow: 0, bgcolor: 'transparent' }}>
       <ToolbarStyle
+        disableGutters
         sx={{
           ...(isOffset && {
             ...cssStyles(theme).bgBlur(),
@@ -73,15 +74,29 @@ export default function MainHeader() {
             justifyContent: 'space-between',
           }}
         >
-          <LinkStyle to={'/dashboard'} component={NavLink}>
-            Dashboard
-          </LinkStyle>
+          <Logo />
+
+          <Label color="info" sx={{ ml: 1 }}>
+            v3.0.0
+          </Label>
           <Box sx={{ flexGrow: 1 }} />
-          <Typography>{auth.isAuthenticated ? auth.user.name : ''}</Typography>
+
+          {isDesktop && <MenuDesktop isOffset={isOffset} isHome={isHome} navConfig={navConfig} />}
+
+          <Button
+            variant="contained"
+            target="_blank"
+            rel="noopener"
+            href="https://material-ui.com/store/items/minimal-dashboard/"
+          >
+            Purchase Now
+          </Button>
+
+          {!isDesktop && <MenuMobile isOffset={isOffset} isHome={isHome} navConfig={navConfig} />}
         </Container>
       </ToolbarStyle>
 
-      <ToolbarShadowStyle />
+      {isOffset && <ToolbarShadowStyle />}
     </AppBar>
   );
 }

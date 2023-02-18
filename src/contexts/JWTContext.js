@@ -24,7 +24,7 @@ const handlers = {
   },
   LOGIN: (state, action) => {
     const { user } = action.payload;
-    console.log(user);
+
     return {
       ...state,
       isAuthenticated: true,
@@ -108,26 +108,18 @@ function AuthProvider({ children }) {
     initialize();
   }, []);
 
-  const login = async (email, password, student = false) => {
-    const destUrl = student ? '/students/login' : '/auth/login';
-    const response = await axios.post(destUrl, {
+  const login = async (email, password) => {
+    const response = await axios.post('/api/account/login', {
       email,
       password,
     });
-    const { token, name, success } = response.data;
+    const { accessToken, user } = response.data;
 
-    if (typeof success === 'undefined' || success === 0) {
-      throw Error('Invalid Credentials provided');
-    }
-
-    setSession(token);
+    setSession(accessToken);
     dispatch({
       type: 'LOGIN',
       payload: {
-        user: {
-          name,
-          role: student ? 'student' : 'faculty',
-        },
+        user,
       },
     });
   };

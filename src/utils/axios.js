@@ -1,11 +1,11 @@
 import axios from 'axios';
 // config
-// import { HOST_API } from '../config';
+import { HOST_API } from '../config';
 
 // ----------------------------------------------------------------------
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: HOST_API,
 });
 
 axiosInstance.interceptors.response.use(
