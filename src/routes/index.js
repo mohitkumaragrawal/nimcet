@@ -57,11 +57,7 @@ export default function Router() {
     // Dashboard Routes
     {
       path: 'dashboard',
-      element: (
-        <AuthGuard>
-          <DashboardLayout />
-        </AuthGuard>
-      ),
+      element: <DashboardLayout />,
       children: [
         { element: <Navigate to={PATH_AFTER_LOGIN} replace />, index: true },
         { path: 'app', element: <GeneralApp /> },

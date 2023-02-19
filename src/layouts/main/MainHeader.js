@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom';
 // @mui
 import { styled, useTheme } from '@mui/material/styles';
-import { Box, Button, AppBar, Toolbar, Container } from '@mui/material';
+import { Box, Button, AppBar, Toolbar, Container, Typography } from '@mui/material';
 // hooks
 import useOffSetTop from '../../hooks/useOffSetTop';
 import useResponsive from '../../hooks/useResponsive';
@@ -30,6 +30,13 @@ const ToolbarStyle = styled(Toolbar)(({ theme }) => ({
   },
 }));
 
+const BrandingStyle = styled('div')(({ theme }) => ({
+  display: 'flex',
+  padding: '2rem',
+  justifyContent: 'space-around',
+  alignItems: 'center',
+}));
+
 const ToolbarShadowStyle = styled('div')(({ theme }) => ({
   left: 0,
   right: 0,
@@ -46,7 +53,7 @@ const ToolbarShadowStyle = styled('div')(({ theme }) => ({
 // ----------------------------------------------------------------------
 
 export default function MainHeader() {
-  const isOffset = useOffSetTop(HEADER.MAIN_DESKTOP_HEIGHT);
+  const isOffset = useOffSetTop(50);
 
   const theme = useTheme();
 
@@ -58,6 +65,15 @@ export default function MainHeader() {
 
   return (
     <AppBar sx={{ boxShadow: 0, bgcolor: 'transparent' }}>
+      {/* <BrandingStyle>
+        <div>LOGO</div>
+        <Box sx={{ display: 'flex', gap: '5px', flexDirection: 'column', alignItems: 'center' }}>
+          <Typography>राष्ट्रीय प्रौद्योगिकी संस्थान जमशेदपुर</Typography>
+          <Typography variant="h4">National Institute of Technology Jamshedpur</Typography>
+          <Typography>NIMCET Counselling and Admission Services for Session 2022</Typography>
+        </Box>
+        <div>LOGO2</div>
+      </BrandingStyle> */}
       <ToolbarStyle
         disableGutters
         sx={{
@@ -76,26 +92,16 @@ export default function MainHeader() {
         >
           <Logo />
 
-          <Label color="info" sx={{ ml: 1 }}>
-            v3.0.0
-          </Label>
-          <Box sx={{ flexGrow: 1 }} />
+          <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', color: 'text.primary' }}>
+            <Typography>राष्ट्रीय प्रौद्योगिकी संस्थान जमशेदपुर</Typography>
+            <Typography variant="h5">National Institute of Technology Jamshedpur</Typography>
+            <Typography>NIMCET Counselling and Admission Services for Session 2022</Typography>
+          </Box>
 
-          {isDesktop && <MenuDesktop isOffset={isOffset} isHome={isHome} navConfig={navConfig} />}
-
-          <Button
-            variant="contained"
-            target="_blank"
-            rel="noopener"
-            href="https://material-ui.com/store/items/minimal-dashboard/"
-          >
-            Purchase Now
-          </Button>
-
-          {!isDesktop && <MenuMobile isOffset={isOffset} isHome={isHome} navConfig={navConfig} />}
+          {isDesktop && <MenuDesktop isOffset={isOffset} isHome={false} navConfig={navConfig} />}
+          {!isDesktop && <MenuMobile isOffset={isOffset} isHome={false} navConfig={navConfig} />}
         </Container>
       </ToolbarStyle>
-
       {isOffset && <ToolbarShadowStyle />}
     </AppBar>
   );

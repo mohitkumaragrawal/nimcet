@@ -22,15 +22,17 @@ const LINKS = [
   {
     headline: 'Legal',
     children: [
-      { name: 'Terms and Condition', href: '#' },
+      { name: 'Copyright Policy', href: '#' },
       { name: 'Privacy Policy', href: '#' },
+      { name: 'Hyperlink Policy', href: '#' },
+      { name: 'Terms and Condition', href: '#' },
     ],
   },
   {
     headline: 'Contact',
     children: [
-      { name: 'support@minimals.cc', href: '#' },
-      { name: 'Los Angeles, 359  Hidden Valley Road', href: '#' },
+      { name: 'nimcet2022@nitjsr.ac.in', href: '#' },
+      { name: 'National Institute of Technology Jamshedpur', href: '#' },
     ],
   },
 ];
@@ -57,25 +59,12 @@ export default function MainFooter() {
           </Grid>
           <Grid item xs={8} md={3}>
             <Typography variant="body2" sx={{ pr: { md: 5 } }}>
-              The starting point for your next project with Minimal UI Kit, built on the newest
-              version of Material-UI ©, ready to be customized to your style.
+              Content Owned and Maintained by National Institute of Technology Jamshedpur
             </Typography>
-
-            <Stack
-              direction="row"
-              justifyContent={{ xs: 'center', md: 'flex-start' }}
-              sx={{ mt: 5, mb: { xs: 5, md: 0 } }}
-            >
-              <SocialsButton sx={{ mx: 0.5 }} />
-            </Stack>
           </Grid>
 
           <Grid item xs={12} md={7}>
-            <Stack
-              spacing={5}
-              direction={{ xs: 'column', md: 'row' }}
-              justifyContent="space-between"
-            >
+            <Stack spacing={5} direction={{ xs: 'column', md: 'row' }} justifyContent="space-between">
               {LINKS.map((list) => (
                 <Stack key={list.headline} spacing={2}>
                   <Typography component="p" variant="overline">
@@ -109,7 +98,7 @@ export default function MainFooter() {
             textAlign: { xs: 'center', md: 'left' },
           }}
         >
-          © 2021. All rights reserved
+          © 2023. All rights reserved
         </Typography>
       </Container>
     </RootStyle>

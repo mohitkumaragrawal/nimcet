@@ -120,6 +120,11 @@ MenuDesktopItem.propTypes = {
 function MenuDesktopItem({ item, isHome, isOpen, isOffset, onOpen, onClose }) {
   const { title, path, children } = item;
 
+  const getSpacing = (subheader) => {
+    if (subheader === 'About' || subheader === 'Chairman') return 2;
+    return 2.5;
+  };
+
   if (children) {
     return (
       <>
@@ -144,7 +149,7 @@ function MenuDesktopItem({ item, isHome, isOpen, isOffset, onOpen, onClose }) {
         <Popover
           open={isOpen}
           anchorReference="anchorPosition"
-          anchorPosition={{ top: 80, left: 0 }}
+          anchorPosition={{ top: 120, left: 0 }}
           anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
           transformOrigin={{ vertical: 'top', horizontal: 'center' }}
           onClose={onClose}
@@ -166,21 +171,23 @@ function MenuDesktopItem({ item, isHome, isOpen, isOffset, onOpen, onClose }) {
               const { subheader, items } = list;
 
               return (
-                <Grid key={subheader} item xs={12} md={subheader === 'Dashboard' ? 6 : 2}>
+                <Grid key={subheader} item xs={12} md={getSpacing(subheader)}>
                   <List disablePadding>
-                    <ListSubheader
-                      disableSticky
-                      disableGutters
-                      sx={{
-                        display: 'flex',
-                        lineHeight: 'unset',
-                        alignItems: 'center',
-                        color: 'text.primary',
-                        typography: 'overline',
-                      }}
-                    >
-                      <IconBullet type="subheader" /> {subheader}
-                    </ListSubheader>
+                    {subheader && (
+                      <ListSubheader
+                        disableSticky
+                        disableGutters
+                        sx={{
+                          display: 'flex',
+                          lineHeight: 'unset',
+                          alignItems: 'center',
+                          color: 'text.primary',
+                          typography: 'overline',
+                        }}
+                      >
+                        <IconBullet type="subheader" /> {subheader}
+                      </ListSubheader>
+                    )}
 
                     {items.map((item) => (
                       <ListItemStyle
@@ -195,33 +202,7 @@ function MenuDesktopItem({ item, isHome, isOpen, isOffset, onOpen, onClose }) {
                           },
                         }}
                       >
-                        {item.title === 'Dashboard' ? (
-                          <CardActionArea
-                            sx={{
-                              py: 5,
-                              px: 10,
-                              borderRadius: 2,
-                              color: 'primary.main',
-                              bgcolor: 'background.neutral',
-                            }}
-                          >
-                            <Box
-                              component={m.img}
-                              whileTap="tap"
-                              whileHover="hover"
-                              variants={{
-                                hover: { scale: 1.02 },
-                                tap: { scale: 0.98 },
-                              }}
-                              src="https://minimal-assets-api.vercel.app/assets/illustrations/illustration_dashboard.png"
-                            />
-                          </CardActionArea>
-                        ) : (
-                          <>
-                            <IconBullet />
-                            {item.title}
-                          </>
-                        )}
+                        {item.title}
                       </ListItemStyle>
                     ))}
                   </List>
@@ -231,22 +212,6 @@ function MenuDesktopItem({ item, isHome, isOpen, isOffset, onOpen, onClose }) {
           </Grid>
         </Popover>
       </>
-    );
-  }
-
-  if (title === 'Documentation') {
-    return (
-      <LinkStyle
-        href={path}
-        target="_blank"
-        rel="noopener"
-        sx={{
-          ...(isHome && { color: 'common.white' }),
-          ...(isOffset && { color: 'text.primary' }),
-        }}
-      >
-        {title}
-      </LinkStyle>
     );
   }
 

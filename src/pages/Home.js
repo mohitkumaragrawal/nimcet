@@ -1,56 +1,39 @@
 // @mui
 import { styled } from '@mui/material/styles';
+import { Divider } from '@mui/material';
 // components
 import Page from '../components/Page';
-// sections
-import {
-  HomeHero,
-  HomeMinimal,
-  HomeDarkMode,
-  HomeLookingFor,
-  HomeColorPresets,
-  HomePricingPlans,
-  HomeAdvertisement,
-  HomeCleanInterfaces,
-  HomeHugePackElements,
-} from '../sections/home';
+import { AboutHero, AboutWhat, AboutTeam, AboutVision, AboutTestimonials } from '../sections/about';
+
+import LatestNews from '../sections/home/LatestNews';
 
 // ----------------------------------------------------------------------
 
-const RootStyle = styled('div')(() => ({
-  height: '100%',
-}));
-
-const ContentStyle = styled('div')(({ theme }) => ({
-  overflow: 'hidden',
-  position: 'relative',
-  backgroundColor: theme.palette.background.default,
+const RootStyle = styled('div')(({ theme }) => ({
+  paddingTop: theme.spacing(20),
+  [theme.breakpoints.up('md')]: {
+    paddingTop: theme.spacing(20),
+  },
 }));
 
 // ----------------------------------------------------------------------
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <Page title="The starting point for your next project">
+    <Page title="Home">
       <RootStyle>
-        <HomeHero />
-        <ContentStyle>
-          <HomeMinimal />
+        {/* <AboutHero /> */}
+        <LatestNews />
 
-          <HomeHugePackElements />
+        <AboutWhat />
 
-          <HomeDarkMode />
+        <AboutVision />
 
-          <HomeColorPresets />
+        <Divider orientation="vertical" sx={{ my: 10, mx: 'auto', width: 2, height: 40 }} />
 
-          <HomeCleanInterfaces />
+        <AboutTeam />
 
-          <HomePricingPlans />
-
-          <HomeLookingFor />
-
-          <HomeAdvertisement />
-        </ContentStyle>
+        <AboutTestimonials />
       </RootStyle>
     </Page>
   );

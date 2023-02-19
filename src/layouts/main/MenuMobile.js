@@ -73,7 +73,7 @@ export default function MenuMobile({ isOffset, isHome, navConfig }) {
         open={drawerOpen}
         onClose={handleDrawerClose}
         ModalProps={{ keepMounted: true }}
-        PaperProps={{ sx: { pb: 5, width: 260 } }}
+        PaperProps={{ sx: { pb: 5, width: 300 } }}
       >
         <Scrollbar>
           <Logo sx={{ mx: 2.5, my: 3 }} />
@@ -137,15 +137,6 @@ function MenuMobileItem({ item, isOpen, onOpen }) {
           </Box>
         </Collapse>
       </>
-    );
-  }
-
-  if (title === 'Documentation') {
-    return (
-      <ListItemStyle href={path} target="_blank" rel="noopener" component={Link}>
-        <ListItemIcon>{icon}</ListItemIcon>
-        <ListItemText disableTypography primary={title} />
-      </ListItemStyle>
     );
   }
 

@@ -24,43 +24,44 @@ const menuConfig = [
     icon: <Iconify icon={'eva:file-fill'} {...ICON_SIZE} />,
     children: [
       {
-        subheader: 'Settings',
+        subheader: 'About',
         items: [
-          { title: 'About us', path: PATH_PAGE.about },
-          { title: 'Contact us', path: PATH_PAGE.contact },
-          { title: 'FAQs', path: PATH_PAGE.faqs },
-          { title: 'Pricing', path: PATH_PAGE.pricing },
-          { title: 'Payment', path: PATH_PAGE.payment },
-          { title: 'Maintenance', path: PATH_PAGE.maintenance },
-          { title: 'Coming Soon', path: PATH_PAGE.comingSoon },
+          { title: 'NIMCET', path: PATH_PAGE.about },
+          { title: 'NIC', path: PATH_PAGE.contact },
         ],
       },
       {
-        subheader: 'Authentication',
+        subheader: 'Chairman',
+        items: [{ title: 'Message from Chairman', path: PATH_AUTH.loginUnprotected }],
+      },
+      {
+        subheader: 'Information',
         items: [
-          { title: 'Login', path: PATH_AUTH.loginUnprotected },
-          { title: 'Register', path: PATH_AUTH.registerUnprotected },
-          { title: 'Reset password', path: PATH_AUTH.resetPassword },
-          { title: 'Verify code', path: PATH_AUTH.verify },
+          { title: 'Profoma Annexures', path: PATH_PAGE.page404 },
+          { title: 'Revised Instruction and Procedures for Counselling', path: PATH_PAGE.page500 },
         ],
       },
       {
-        subheader: 'Error',
+        subheader: 'eServices',
         items: [
-          { title: 'Page 404', path: PATH_PAGE.page404 },
-          { title: 'Page 500', path: PATH_PAGE.page500 },
+          { title: 'Participating Institute', path: PATH_PAGE.page404 },
+          { title: 'Seat Matrix', path: PATH_PAGE.page404 },
+          { title: 'OR-CR', path: PATH_PAGE.page404 },
         ],
       },
       {
-        subheader: 'Dashboard',
-        items: [{ title: 'Dashboard', path: PATH_AFTER_LOGIN }],
+        subheader: 'Miscellanous',
+        items: [
+          { title: 'Schedule', path: PATH_PAGE.page404 },
+          { title: 'Archive', path: PATH_PAGE.page404 },
+        ],
+      },
+
+      {
+        subheader: '',
+        items: [],
       },
     ],
-  },
-  {
-    title: 'Documentation',
-    icon: <Iconify icon={'eva:book-open-fill'} {...ICON_SIZE} />,
-    path: PATH_DOCS,
   },
 ];
 
