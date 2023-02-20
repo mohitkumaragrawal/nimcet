@@ -203,7 +203,7 @@ const SeatMatrix = Loadable(lazy(() => import('../pages/SeatMatrix')));
 const OrCr = Loadable(lazy(() => import('../pages/OrCr')));
 const Schedule = Loadable(lazy(() => import('../pages/Schedule')));
 const Archive = Loadable(lazy(() => import('../pages/Archive')));
-const Contact = Loadable(lazy(() => import('../pages/contact')));
+const Contact = Loadable(lazy(() => import('../pages/Contact')));
 const Faqs = Loadable(lazy(() => import('../pages/Faqs')));
 const ComingSoon = Loadable(lazy(() => import('../pages/ComingSoon')));
 const Maintenance = Loadable(lazy(() => import('../pages/Maintenance')));
