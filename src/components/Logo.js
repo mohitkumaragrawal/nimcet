@@ -14,7 +14,7 @@ Logo.propTypes = {
 };
 
 export default function Logo({ disabledLink = false, sx }) {
-  return <img src={imgLogo} width="100" height="100" alt="NIMCET" />;
+  return <img src={imgLogo} width="80" height="80" alt="NIMCET" />;
 
   // const theme = useTheme();
   // const PRIMARY_LIGHT = theme.palette.primary.light;
