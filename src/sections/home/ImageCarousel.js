@@ -41,7 +41,7 @@ export default function ImageCarousel() {
   const sliderSettings = {
     dots: false,
     arrows: false,
-    slidesToShow: 2,
+    slidesToShow: 5,
     centerMode: true,
     swipeToSlide: true,
     focusOnSelect: true,
