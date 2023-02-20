@@ -27,33 +27,33 @@ const menuConfig = [
         subheader: 'About',
         items: [
           { title: 'NIMCET', path: PATH_PAGE.about },
-          { title: 'NIC', path: PATH_PAGE.contact },
+          { title: 'NIC', path: PATH_PAGE.aboutNic },
         ],
       },
       {
         subheader: 'Chairman',
-        items: [{ title: 'Message from Chairman', path: PATH_AUTH.loginUnprotected }],
+        items: [{ title: 'Message from Chairman', path: PATH_PAGE.chairman }],
       },
       {
         subheader: 'Information',
         items: [
-          { title: 'Profoma Annexures', path: PATH_PAGE.page404 },
-          { title: 'Revised Instruction and Procedures for Counselling', path: PATH_PAGE.page500 },
+          { title: 'Profoma Annexures', path: PATH_PAGE.ProformaAnnexures },
+          { title: 'Revised Instruction and Procedures for Counselling', path: PATH_PAGE.InstructionsAndProcedure },
         ],
       },
       {
         subheader: 'eServices',
         items: [
-          { title: 'Participating Institute', path: PATH_PAGE.page404 },
-          { title: 'Seat Matrix', path: PATH_PAGE.page404 },
-          { title: 'OR-CR', path: PATH_PAGE.page404 },
+          { title: 'Participating Institute', path: PATH_PAGE.Institutes },
+          { title: 'Seat Matrix', path: PATH_PAGE.SeatMatrix },
+          { title: 'OR-CR', path: PATH_PAGE.OrCr },
         ],
       },
       {
         subheader: 'Miscellanous',
         items: [
-          { title: 'Schedule', path: PATH_PAGE.page404 },
-          { title: 'Archive', path: PATH_PAGE.page404 },
+          { title: 'Schedule', path: PATH_PAGE.Schedule },
+          { title: 'Archive', path: PATH_PAGE.Archive },
         ],
       },
 
