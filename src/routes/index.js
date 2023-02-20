@@ -143,6 +143,15 @@ export default function Router() {
       children: [
         { element: <HomePage />, index: true },
         { path: 'about-us', element: <About /> },
+        { path: 'about-nic', element: <AboutNic /> },
+        { path: 'message-from-chairman', element: <Chairman /> },
+        { path: 'proforma-annexures', element: <ProformaAnnexures /> },
+        { path: 'instructions-and-procedure', element: <InstructionAndProcedure /> },
+        { path: 'institutes', element: <Institutes /> },
+        { path: 'seat-matrix', element: <SeatMatrix /> },
+        { path: 'or-cr', element: <OrCr /> },
+        { path: 'archive', element: <Archive /> },
+        { path: 'schedule', element: <Schedule /> },
         { path: 'contact-us', element: <Contact /> },
         { path: 'faqs', element: <Faqs /> },
       ],
@@ -185,7 +194,16 @@ const Kanban = Loadable(lazy(() => import('../pages/dashboard/Kanban')));
 // Main
 const HomePage = Loadable(lazy(() => import('../pages/Home')));
 const About = Loadable(lazy(() => import('../pages/About')));
-const Contact = Loadable(lazy(() => import('../pages/Contact')));
+const AboutNic = Loadable(lazy(() => import('../pages/AboutNic')));
+const Chairman = Loadable(lazy(() => import('../pages/Chairman')));
+const ProformaAnnexures = Loadable(lazy(() => import('../pages/ProformaAnnexures')));
+const InstructionAndProcedure = Loadable(lazy(() => import('../pages/InstructionandProceduresforCounselling')));
+const Institutes = Loadable(lazy(() => import('../pages/Institutes')));
+const SeatMatrix = Loadable(lazy(() => import('../pages/SeatMatrix')));
+const OrCr = Loadable(lazy(() => import('../pages/OrCr')));
+const Schedule = Loadable(lazy(() => import('../pages/Schedule')));
+const Archive = Loadable(lazy(() => import('../pages/Archive')));
+const Contact = Loadable(lazy(() => import('../pages/contact')));
 const Faqs = Loadable(lazy(() => import('../pages/Faqs')));
 const ComingSoon = Loadable(lazy(() => import('../pages/ComingSoon')));
 const Maintenance = Loadable(lazy(() => import('../pages/Maintenance')));
