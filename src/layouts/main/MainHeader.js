@@ -30,13 +30,6 @@ const ToolbarStyle = styled(Toolbar)(({ theme }) => ({
   },
 }));
 
-const BrandingStyle = styled('div')(({ theme }) => ({
-  display: 'flex',
-  padding: '2rem',
-  justifyContent: 'space-around',
-  alignItems: 'center',
-}));
-
 const ToolbarShadowStyle = styled('div')(({ theme }) => ({
   left: 0,
   right: 0,
@@ -93,9 +86,9 @@ export default function MainHeader() {
           <Logo />
 
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', color: 'text.primary' }}>
-            <Typography>राष्ट्रीय प्रौद्योगिकी संस्थान जमशेदपुर</Typography>
-            <Typography variant="h5">National Institute of Technology Jamshedpur</Typography>
-            <Typography>NIMCET Counselling and Admission Services for Session 2022</Typography>
+            {isDesktop && <Typography>राष्ट्रीय प्रौद्योगिकी संस्थान जमशेदपुर</Typography>}
+            <Typography variant="h6">National Institute of Technology Jamshedpur</Typography>
+            <Typography variant="caption">NIMCET Counselling and Admission Services for Session 2022</Typography>
           </Box>
 
           {isDesktop && <MenuDesktop isOffset={isOffset} isHome={false} navConfig={navConfig} />}

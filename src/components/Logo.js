@@ -4,6 +4,8 @@ import { Link as RouterLink } from 'react-router-dom';
 import { useTheme } from '@mui/material/styles';
 import { Box } from '@mui/material';
 
+import imgLogo from '../assets/nimcet.png';
+
 // ----------------------------------------------------------------------
 
 Logo.propTypes = {
@@ -12,14 +14,7 @@ Logo.propTypes = {
 };
 
 export default function Logo({ disabledLink = false, sx }) {
-  return (
-    <img
-      src="https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2022/05/2022052597.png"
-      width="100"
-      height="100"
-      alt="NIMCET"
-    />
-  );
+  return <img src={imgLogo} width="80" height="80" alt="NIMCET" />;
 
   // const theme = useTheme();
   // const PRIMARY_LIGHT = theme.palette.primary.light;
