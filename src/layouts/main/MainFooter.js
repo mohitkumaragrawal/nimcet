@@ -22,9 +22,9 @@ const LINKS = [
   {
     headline: 'Legal',
     children: [
-      { name: 'Copyright Policy', href: '#' },
-      { name: 'Privacy Policy', href: '#' },
-      { name: 'Hyperlink Policy', href: '#' },
+      { name: 'Copyright Policy', href: PATH_PAGE.Copyright },
+      { name: 'Privacy Policy', href: PATH_PAGE.PrivacyPolicy },
+      { name: 'Hyperlink Policy', href: PATH_PAGE.HyperPolicy },
       { name: 'Terms and Condition', href: '#' },
     ],
   },

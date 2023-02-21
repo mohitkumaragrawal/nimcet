@@ -18,7 +18,7 @@ const RootStyle = styled('div')(({ theme }) => ({
 
 export default function Contact() {
   return (
-    <Page title="Contact us">
+    <Page title="Copyright">
       <RootStyle>
         {/* <ContactHero /> */}
         <Container sx={{ my: 10 }}>
@@ -31,20 +31,17 @@ export default function Contact() {
             </Grid>
           </Grid> */}
           <Typography variant="h2" marginBottom={'1rem'}>
-            Contact Us
+            Copyright Policy
           </Typography>
-          <Typography variant="h6" marginBottom={'0.5rem'}>
-            The Secretary, NIMCET -2022
-          </Typography>
-          <Typography marginBottom={'0.5rem'}>National Institute of Technology Jamshedpur</Typography>
-          <Typography marginBottom={'0.5rem'}>Adityapur-2, Jamshedpur – 831014, Jharkhand</Typography>
+
           <Typography marginBottom={'0.5rem'}>
-            <b>Mob. No. :</b>
-            +91-9341519389
-          </Typography>
-          <Typography marginBottom={'15rem'}>
-            <b>Email : </b>
-            nimcet2022@nitjsr.ac.in
+            Material featured on this site may be reproduced free of charge after taking proper permission from National
+            Institute of Technology Jamshedpur. This is subject to the material being reproduced accurately and not
+            being used in a derogatory manner or in a misleading context. Wherever the material is being published or
+            issued to others, the source must be prominently acknowledged. However, the permission to reproduce this
+            material does not extend to any material on this site, which is explicitly identified as being the copyright
+            of of National Institute of Technology Jamshedpur or third party. Authorization to reproduce such material
+            must be obtained from the departments/copyright holders concerned.
           </Typography>
         </Container>
       </RootStyle>

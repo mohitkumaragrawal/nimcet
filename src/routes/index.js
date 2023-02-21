@@ -12,6 +12,7 @@ import AuthGuard from '../guards/AuthGuard';
 import { PATH_AFTER_LOGIN } from '../config';
 // components
 import LoadingScreen from '../components/LoadingScreen';
+// import { Copyright } from '@mui/icons-material';
 
 // ----------------------------------------------------------------------
 
@@ -153,6 +154,9 @@ export default function Router() {
         { path: 'archive', element: <Archive /> },
         { path: 'schedule', element: <Schedule /> },
         { path: 'contact-us', element: <Contact /> },
+        { path: 'copyright', element: <Copyright /> },
+        { path: 'privacy-policy', element: <PrivacyPolicy /> },
+        { path: 'hyperlink-policy', element: <HyperlinkPolicy /> },
         { path: 'faqs', element: <Faqs /> },
       ],
     },
@@ -205,6 +209,9 @@ const Schedule = Loadable(lazy(() => import('../pages/Schedule')));
 const Archive = Loadable(lazy(() => import('../pages/Archive')));
 const Contact = Loadable(lazy(() => import('../pages/contact')));
 const Faqs = Loadable(lazy(() => import('../pages/Faqs')));
+const Copyright = Loadable(lazy(() => import('../pages/Copyright')));
+const PrivacyPolicy = Loadable(lazy(() => import('../pages/PrivacyPolicy')));
+const HyperlinkPolicy = Loadable(lazy(() => import('../pages/HyperlinkPolicy')));
 const ComingSoon = Loadable(lazy(() => import('../pages/ComingSoon')));
 const Maintenance = Loadable(lazy(() => import('../pages/Maintenance')));
 const Pricing = Loadable(lazy(() => import('../pages/Pricing')));

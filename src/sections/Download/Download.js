@@ -68,7 +68,13 @@ const Download = ({ name, title, link }) => {
               </TableHead>
               <TableBody>
                 <TableRow key={name} sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
-                  <TableCell component="th" scope="row">
+                  <TableCell
+                    component="th"
+                    scope="row"
+                    sx={{
+                      width: '60%',
+                    }}
+                  >
                     {name}
                   </TableCell>
                   <TableCell align="left">2023</TableCell>
