@@ -17,6 +17,7 @@ const LINKS = [
       { name: 'About us', href: PATH_PAGE.about },
       { name: 'Contact us', href: PATH_PAGE.contact },
       { name: 'FAQs', href: PATH_PAGE.faqs },
+      { name: 'Help', href: PATH_PAGE.Help },
     ],
   },
   {
@@ -32,7 +33,7 @@ const LINKS = [
     headline: 'Contact',
     children: [
       { name: 'nimcet2022@nitjsr.ac.in', href: '#' },
-      { name: 'National Institute of Technology Jamshedpur', href: '#' },
+      { name: 'National Institute of Technology Jamshedpur', href: 'https://www.nitjsr.ac.in/' },
     ],
   },
 ];

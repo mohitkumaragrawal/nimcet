@@ -18,7 +18,7 @@ const RootStyle = styled('div')(({ theme }) => ({
 }));
 const ProformaAnnexures = () => {
   return (
-    <Page title="Proforma Annexures">
+    <Page title="OR-CR">
       <RootStyle>
         <Download
           name="Opening & Closing Rank (ORCR) for NIMCET Counselling 2022"

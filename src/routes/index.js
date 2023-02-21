@@ -158,6 +158,9 @@ export default function Router() {
         { path: 'privacy-policy', element: <PrivacyPolicy /> },
         { path: 'terms-and-conditions', element: <TermsAndConditions /> },
         { path: 'hyper-policy', element: <HyperPolicy /> },
+        { path: 'special-round-counseling-brochure', element: <SpecialRound /> },
+        { path: 'tentative-vacancy-position-for-special-round-counselling', element: <Tentative /> },
+        { path: 'help', element: <Help /> },
         { path: 'faqs', element: <Faqs /> },
       ],
     },
@@ -214,6 +217,9 @@ const Copyright = Loadable(lazy(() => import('../pages/Copyright')));
 const PrivacyPolicy = Loadable(lazy(() => import('../pages/PrivacyPolicy')));
 const HyperPolicy = Loadable(lazy(() => import('../pages/HyperlinkPolicy')));
 const TermsAndConditions = Loadable(lazy(() => import('../pages/TermsAndConditions')));
+const SpecialRound = Loadable(lazy(() => import('../pages/SpecialRound')));
+const Help = Loadable(lazy(() => import('../pages/Help')));
+const Tentative = Loadable(lazy(() => import('../pages/Tentative')));
 const ComingSoon = Loadable(lazy(() => import('../pages/ComingSoon')));
 const Maintenance = Loadable(lazy(() => import('../pages/Maintenance')));
 const Pricing = Loadable(lazy(() => import('../pages/Pricing')));
