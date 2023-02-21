@@ -38,6 +38,7 @@ export const PATH_PAGE = {
   Copyright: '/copyright',
   PrivacyPolicy: '/privacy-policy',
   HyperPolicy: '/hyper-policy',
+  TermsAndConditions: '/terms-and-conditions',
   faqs: '/faqs',
   page404: '/404',
   page500: '/500',

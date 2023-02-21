@@ -25,7 +25,7 @@ const LINKS = [
       { name: 'Copyright Policy', href: PATH_PAGE.Copyright },
       { name: 'Privacy Policy', href: PATH_PAGE.PrivacyPolicy },
       { name: 'Hyperlink Policy', href: PATH_PAGE.HyperPolicy },
-      { name: 'Terms and Condition', href: '#' },
+      { name: 'Terms and Condition', href: PATH_PAGE.TermsAndConditions },
     ],
   },
   {
