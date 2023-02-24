@@ -5,11 +5,11 @@ import MainLayout from '../layouts/main';
 import DashboardLayout from '../layouts/dashboard';
 import LogoOnlyLayout from '../layouts/LogoOnlyLayout';
 // guards
-// import GuestGuard from '../guards/GuestGuard';
-// import AuthGuard from '../guards/AuthGuard';
+import GuestGuard from '../guards/GuestGuard';
+import AuthGuard from '../guards/AuthGuard';
 // import RoleBasedGuard from '../guards/RoleBasedGuard';
 // config
-// import { PATH_AFTER_LOGIN } from '../config';
+import { PATH_AFTER_LOGIN } from '../config';
 // components
 import LoadingScreen from '../components/LoadingScreen';
 // import { Copyright } from '@mui/icons-material';
@@ -213,6 +213,13 @@ const Schedule = Loadable(lazy(() => import('../pages/Schedule')));
 const Archive = Loadable(lazy(() => import('../pages/Archive')));
 const Contact = Loadable(lazy(() => import('../pages/Contact')));
 const Faqs = Loadable(lazy(() => import('../pages/Faqs')));
+const Copyright = Loadable(lazy(() => import('../pages/Copyright')));
+const PrivacyPolicy = Loadable(lazy(() => import('../pages/PrivacyPolicy')));
+const HyperPolicy = Loadable(lazy(() => import('../pages/HyperlinkPolicy')));
+const TermsAndConditions = Loadable(lazy(() => import('../pages/TermsAndConditions')));
+const SpecialRound = Loadable(lazy(() => import('../pages/SpecialRound')));
+const Help = Loadable(lazy(() => import('../pages/Help')));
+const Tentative = Loadable(lazy(() => import('../pages/Tentative')));
 // const ComingSoon = Loadable(lazy(() => import('../pages/ComingSoon')));
 // const Maintenance = Loadable(lazy(() => import('../pages/Maintenance')));
 // const Pricing = Loadable(lazy(() => import('../pages/Pricing')));
