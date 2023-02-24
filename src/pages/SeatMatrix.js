@@ -18,7 +18,7 @@ const RootStyle = styled('div')(({ theme }) => ({
 }));
 const ProformaAnnexures = () => {
   return (
-    <Page title="Proforma Annexures">
+    <Page title="Seat Matrix">
       <RootStyle>
         <Download
           name="Seat Matrix"

@@ -16,14 +16,18 @@ const RootStyle = styled('div')(({ theme }) => ({
     paddingTop: theme.spacing(11),
   },
 }));
-const ProformaAnnexures = () => {
+const InstructionandProcedures = () => {
   return (
-    <Page title="Archive">
+    <Page title="Instruction and Procedures for Counselling.">
       <RootStyle>
-        <Download name="Archive" title="NA" link="NA" />
+        <Download
+          name="Special Round Counseling Brochure"
+          title="Special Round Counseling Brochure"
+          link="https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2022/08/2022080541.pdf"
+        />
       </RootStyle>
     </Page>
   );
 };
 
-export default ProformaAnnexures;
+export default InstructionandProcedures;

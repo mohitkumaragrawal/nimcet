@@ -12,6 +12,7 @@ import LogoOnlyLayout from '../layouts/LogoOnlyLayout';
 // import { PATH_AFTER_LOGIN } from '../config';
 // components
 import LoadingScreen from '../components/LoadingScreen';
+// import { Copyright } from '@mui/icons-material';
 
 // ----------------------------------------------------------------------
 
@@ -153,6 +154,13 @@ export default function Router() {
         { path: 'archive', element: <Archive /> },
         { path: 'schedule', element: <Schedule /> },
         { path: 'contact-us', element: <Contact /> },
+        { path: 'copyright', element: <Copyright /> },
+        { path: 'privacy-policy', element: <PrivacyPolicy /> },
+        { path: 'terms-and-conditions', element: <TermsAndConditions /> },
+        { path: 'hyper-policy', element: <HyperPolicy /> },
+        { path: 'special-round-counseling-brochure', element: <SpecialRound /> },
+        { path: 'tentative-vacancy-position-for-special-round-counselling', element: <Tentative /> },
+        { path: 'help', element: <Help /> },
         { path: 'faqs', element: <Faqs /> },
       ],
     },

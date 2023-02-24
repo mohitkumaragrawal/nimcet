@@ -18,7 +18,7 @@ const RootStyle = styled('div')(({ theme }) => ({
 
 export default function Contact() {
   return (
-    <Page title="Contact us">
+    <Page title="About NIC">
       <RootStyle>
         <AboutNicHero />
 

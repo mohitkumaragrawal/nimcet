@@ -17,22 +17,23 @@ const LINKS = [
       { name: 'About us', href: PATH_PAGE.about },
       { name: 'Contact us', href: PATH_PAGE.contact },
       { name: 'FAQs', href: PATH_PAGE.faqs },
+      { name: 'Help', href: PATH_PAGE.Help },
     ],
   },
   {
     headline: 'Legal',
     children: [
-      { name: 'Copyright Policy', href: '#' },
-      { name: 'Privacy Policy', href: '#' },
-      { name: 'Hyperlink Policy', href: '#' },
-      { name: 'Terms and Condition', href: '#' },
+      { name: 'Copyright Policy', href: PATH_PAGE.Copyright },
+      { name: 'Privacy Policy', href: PATH_PAGE.PrivacyPolicy },
+      { name: 'Hyperlink Policy', href: PATH_PAGE.HyperPolicy },
+      { name: 'Terms and Condition', href: PATH_PAGE.TermsAndConditions },
     ],
   },
   {
     headline: 'Contact',
     children: [
       { name: 'nimcet2022@nitjsr.ac.in', href: '#' },
-      { name: 'National Institute of Technology Jamshedpur', href: '#' },
+      { name: 'National Institute of Technology Jamshedpur', href: 'https://www.nitjsr.ac.in/' },
     ],
   },
 ];

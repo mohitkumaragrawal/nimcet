@@ -40,19 +40,19 @@ function a11yProps(index) {
 const eventData = [
   {
     title: 'Special Round Counseling Brochure',
-    link: 'https://nimcet.admissions.nic.in/document/special-round-counseling-brochure/',
+    link: '/special-round-counseling-brochure',
     lastUpdated: 'Updated on 06:10 AM of 5th August, 2022',
   },
 
   {
     title: 'Tentative Vacancy Position for Special Round Counselling',
-    link: 'https://nimcet.admissions.nic.in/document/tentative-vacancy-position-for-special-round-counselling/',
+    link: '/tentative-vacancy-position-for-special-round-counselling',
     lastUpdated: 'Updated on 05:49 AM of 3rd August, 2022',
   },
   {
     title:
       'All candidates who have confirmed seats in NIMCET-2022 have to pay the partial admission fee (SC/ST/PwD: 20,000/-, GN/OBC/GN-EWS:30,000/-) during 28/07/2022 to 01/08/2022. Non Payment of partial admission fee will lead to cancellation of allotted seats.',
-    link: 'https://nimcet.admissions.nic.in/students-who-have-paid-the-fee-by-1159-pm-19-07-2022-will-be-able-to-respond-to-the-query-if-any-by-1100-pm-20-07-2022/',
+    link: '#',
     lastUpdated: 'Updated on 12:28 PM of 27th July, 2022',
   },
 ];
