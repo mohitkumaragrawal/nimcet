@@ -54,6 +54,9 @@ const menuConfig = [
         items: [
           { title: 'Schedule', path: PATH_PAGE.Schedule },
           { title: 'Archive', path: PATH_PAGE.Archive },
+
+          { title: 'Privacy Policy', path: '/privacy-policy2' },
+          { title: 'Refund Policy', path: '/refund-policy2' },
         ],
       },
 
@@ -62,6 +65,10 @@ const menuConfig = [
         items: [],
       },
     ],
+  },
+  {
+    title: 'Download Brochure',
+    path: 'https://drive.google.com/file/d/18p70B2b3N9QMhilsCtHBtFTtuMj4g25q/view?usp=sharing',
   },
 ];
 

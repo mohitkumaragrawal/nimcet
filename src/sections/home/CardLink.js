@@ -20,7 +20,7 @@ const LinkStyle = styled('a')(({ theme }) => ({
 
 export default function CardLink({ links, heading }) {
   return (
-    <MotionInView variants={varFade().inRight}>
+    <MotionInView variants={varFade().inUp}>
       <Card sx={{ width: '100%', padding: '1rem 2rem', border: '1px solid', borderColor: 'divider' }}>
         <Typography variant="h3">{heading}</Typography>
 

@@ -140,6 +140,19 @@ function MenuMobileItem({ item, isOpen, onOpen }) {
     );
   }
 
+  if (title === 'Download Brochure') {
+    return (
+      <ListItemButton
+        component="a"
+        variant="contained"
+        href="https://drive.google.com/file/d/18p70B2b3N9QMhilsCtHBtFTtuMj4g25q/view?usp=sharing"
+        download
+      >
+        {title}
+      </ListItemButton>
+    );
+  }
+
   return (
     <ListItemStyle
       to={path}
