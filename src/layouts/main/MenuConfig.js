@@ -47,6 +47,7 @@ const menuConfig = [
           { title: 'Eligibility Criteria', path: PATH_PAGE.EligibilityCriteria },
           { title: 'Documents Required', path: PATH_PAGE.DocumentsRequired },
           { title: 'Application Fee ', path: PATH_PAGE.ApplicationFee },
+          { title: 'Test Centers', path: '/test-centers' },
         ],
       },
       {
