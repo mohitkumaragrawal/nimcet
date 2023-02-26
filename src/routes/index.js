@@ -148,9 +148,9 @@ export default function Router() {
         { path: 'message-from-chairman', element: <Chairman /> },
         { path: 'proforma-annexures', element: <ProformaAnnexures /> },
         { path: 'instructions-and-procedure', element: <InstructionAndProcedure /> },
-        { path: 'institutes', element: <Institutes /> },
-        { path: 'seat-matrix', element: <SeatMatrix /> },
-        { path: 'or-cr', element: <OrCr /> },
+        { path: 'eligibility-criteria', element: <EligibilityCriteria /> },
+        { path: 'documents-required', element: <DocumentsRequired /> },
+        { path: 'application-fee', element: <ApplicationFee /> },
         { path: 'archive', element: <Archive /> },
         { path: 'schedule', element: <Schedule /> },
         { path: 'contact-us', element: <Contact /> },
@@ -206,9 +206,9 @@ const AboutNic = Loadable(lazy(() => import('../pages/AboutNic')));
 const Chairman = Loadable(lazy(() => import('../pages/Chairman')));
 const ProformaAnnexures = Loadable(lazy(() => import('../pages/ProformaAnnexures')));
 const InstructionAndProcedure = Loadable(lazy(() => import('../pages/InstructionandProceduresforCounselling')));
-const Institutes = Loadable(lazy(() => import('../pages/Institutes')));
-const SeatMatrix = Loadable(lazy(() => import('../pages/SeatMatrix')));
-const OrCr = Loadable(lazy(() => import('../pages/OrCr')));
+const EligibilityCriteria = Loadable(lazy(() => import('../pages/EligibilityCriteria')));
+const DocumentsRequired = Loadable(lazy(() => import('../pages/DocumentsRequired')));
+const ApplicationFee = Loadable(lazy(() => import('../pages/ApplicationFee')));
 const Schedule = Loadable(lazy(() => import('../pages/Schedule')));
 const Archive = Loadable(lazy(() => import('../pages/Archive')));
 const Contact = Loadable(lazy(() => import('../pages/Contact')));

@@ -42,11 +42,11 @@ const menuConfig = [
         ],
       },
       {
-        subheader: 'eServices',
+        subheader: 'Registration',
         items: [
-          { title: 'Participating Institute', path: PATH_PAGE.Institutes },
-          { title: 'Seat Matrix', path: PATH_PAGE.SeatMatrix },
-          { title: 'OR-CR', path: PATH_PAGE.OrCr },
+          { title: 'Eligibility Criteria', path: PATH_PAGE.EligibilityCriteria },
+          { title: 'Documents Required', path: PATH_PAGE.DocumentsRequired },
+          { title: 'Application Fee ', path: PATH_PAGE.ApplicationFee },
         ],
       },
       {
