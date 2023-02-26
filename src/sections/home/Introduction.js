@@ -4,10 +4,10 @@ import { MotionInView, varFade } from '../../components/animate';
 export default function Introduction() {
   return (
     <Box>
-      <MotionInView variants={varFade().inUp}>
+      {/* <MotionInView variants={varFade().inUp}> */}
         <Typography variant="h2">Introduction</Typography>
-      </MotionInView>
-      <MotionInView variants={varFade().inUp}>
+      {/* </MotionInView> */}
+      {/* <MotionInView variants={varFade().inUp}> */}
         <Typography>
           National Institutes of Technology (NITs) are Institutions of National Importance Under Ministry of Education,
           Govt. of India. The NIMCET is a Common Entrance National Level Test, conducted by any of the NITs, for
@@ -19,7 +19,7 @@ export default function Introduction() {
         <Button sx={{ mt: '1rem' }} variant="contained">
           View More
         </Button>
-      </MotionInView>
+      {/* </MotionInView> */}
     </Box>
   );
 }

@@ -5,7 +5,7 @@ import { MotionInView, varFade } from '../../components/animate';
 
 export default function LatestNews() {
   return (
-    <MotionInView variants={varFade().inRight}>
+    // <MotionInView variants={varFade().inRight}>
       <Card sx={{ margin: 5, marginBottom: 2, padding: 2, paddingLeft: 3 }}>
         <Stack direction={'row'} sx={{ gap: '2rem', alignItems: 'center' }}>
           <NewspaperIcon sx={{ fontSize: '3rem' }} />
@@ -19,6 +19,6 @@ export default function LatestNews() {
           </Stack>
         </Stack>
       </Card>
-    </MotionInView>
+    // </MotionInView>
   );
 }

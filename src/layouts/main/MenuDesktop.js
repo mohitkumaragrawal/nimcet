@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import { NavLink as RouterLink, useLocation } from 'react-router-dom';
 // @mui
 import { styled } from '@mui/material/styles';
-import { Box, Link, Grid, List, Stack, Popover, ListItem, ListSubheader, CardActionArea } from '@mui/material';
+import { Box, Link, Grid, List, Stack, Popover, ListItem, ListSubheader, CardActionArea, Button } from '@mui/material';
 // components
 import Iconify from '../../components/Iconify';
 
@@ -62,7 +62,7 @@ export default function MenuDesktop({ isOffset, isHome, navConfig }) {
   };
 
   return (
-    <Stack direction="row">
+    <Stack direction="row" alignItems="center">
       {navConfig.map((link) => (
         <MenuDesktopItem
           key={link.title}
@@ -213,6 +213,12 @@ function MenuDesktopItem({ item, isHome, isOpen, isOffset, onOpen, onClose }) {
         </Popover>
       </>
     );
+  }
+
+  if (title === "Download Brochure")  {
+    return (
+      <Button component="a" variant="contained" href="https://drive.google.com/file/d/18p70B2b3N9QMhilsCtHBtFTtuMj4g25q/view?usp=sharing" download>{title}</Button>
+    )
   }
 
   return (

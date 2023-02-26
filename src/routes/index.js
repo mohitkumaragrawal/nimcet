@@ -162,6 +162,10 @@ export default function Router() {
         { path: 'tentative-vacancy-position-for-special-round-counselling', element: <Tentative /> },
         { path: 'help', element: <Help /> },
         { path: 'faqs', element: <Faqs /> },
+
+        { path: 'test-centers', element: <TestCenters /> },
+        { path: 'privacy-policy2', element: <PrivacyPolicy2 /> },
+        { path: 'refund-policy2', element: <RefundPolicy2 /> },
       ],
     },
     { path: '*', element: <Navigate to="/404" replace /> },
@@ -226,3 +230,7 @@ const Tentative = Loadable(lazy(() => import('../pages/Tentative')));
 // const Payment = Loadable(lazy(() => import('../pages/Payment')));
 const Page500 = Loadable(lazy(() => import('../pages/Page500')));
 const NotFound = Loadable(lazy(() => import('../pages/Page404')));
+
+const TestCenters = Loadable(lazy(() => import('../pages/TestCenters')));
+const PrivacyPolicy2 = Loadable(lazy(() => import('../pages/PrivacyPolicy2')));
+const RefundPolicy2 = Loadable(lazy(() => import('../pages/RefundPolicy2')));

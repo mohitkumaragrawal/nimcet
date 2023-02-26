@@ -96,7 +96,7 @@ export default function Events() {
   };
 
   return (
-    <MotionInView variants={varFade().inLeft}>
+    // <MotionInView variants={varFade().inLeft}>
       <Card sx={{ width: '100%', padding: '1rem 2rem', border: '1px solid', borderColor: 'divider' }}>
         <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
           <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
@@ -111,6 +111,6 @@ export default function Events() {
           <EventListRenderer data={noticeData} />
         </TabPanel>
       </Card>
-    </MotionInView>
+    // </MotionInView>
   );
 }
