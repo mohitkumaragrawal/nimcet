@@ -27,7 +27,7 @@ const menuConfig = [
         subheader: 'About',
         items: [
           { title: 'NIMCET', path: PATH_PAGE.about },
-          { title: 'NIC', path: PATH_PAGE.aboutNic },
+          // { title: 'NIC', path: PATH_PAGE.aboutNic },
         ],
       },
       {
@@ -38,7 +38,7 @@ const menuConfig = [
         subheader: 'Information',
         items: [
           { title: 'Profoma Annexures', path: PATH_PAGE.ProformaAnnexures },
-          { title: 'Revised Instruction and Procedures for Counselling', path: PATH_PAGE.InstructionsAndProcedure },
+          // { title: 'Revised Instruction and Procedures for Counselling', path: PATH_PAGE.InstructionsAndProcedure },
         ],
       },
       {
