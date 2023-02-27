@@ -58,6 +58,8 @@ const menuConfig = [
 
           { title: 'Privacy Policy', path: '/privacy-policy2' },
           { title: 'Refund Policy', path: '/refund-policy2' },
+          { title: 'Product and Services', path: '/product-services' },
+          { title: 'Terms and Conditions', path: '/terms-conditions2' },
         ],
       },
 

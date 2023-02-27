@@ -23,7 +23,7 @@ const ProformaAnnexures = () => {
         <Download
           name="Proforma Annexures"
           title="Proforma Annexures"
-          link="https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2022/07/2022070662.pdf"
+          link="https://drive.google.com/file/d/13qqSnKb50D0Izg-Ya19caV8pf37ypzw7/view?usp=sharing"
         />
       </RootStyle>
     </Page>

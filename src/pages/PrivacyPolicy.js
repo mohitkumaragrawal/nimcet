@@ -30,7 +30,7 @@ export default function Contact() {
               <ContactMap />
             </Grid>
           </Grid> */}
-          <Typography variant="h2" marginBottom={'1rem'}>
+          <Typography variant="h3" marginBottom={'1rem'}>
             Privacy Policy
           </Typography>
 
@@ -39,7 +39,7 @@ export default function Contact() {
             can generally visit the site without revealing Personal Information, unless you choose to provide such
             information.
           </Typography>
-          <Typography variant="h3" marginBottom={'0.5rem'}>
+          <Typography variant="h4" marginBottom={'0.5rem'}>
             Site Visit Data:
           </Typography>
           <Typography marginBottom={'0.5rem'}>
@@ -50,7 +50,7 @@ export default function Contact() {
             will not identify users or their browsing activities, except when a law enforcement agency may exercise a
             warrant to inspect the service provider’s logs.
           </Typography>
-          <Typography variant="h3" marginBottom={'0.5rem'}>
+          <Typography variant="h4" marginBottom={'0.5rem'}>
             Site Visit Data:
           </Typography>
           <Typography marginBottom={'0.5rem'}>
@@ -61,14 +61,14 @@ export default function Contact() {
             will not identify users or their browsing activities, except when a law enforcement agency may exercise a
             warrant to inspect the service provider’s logs.
           </Typography>
-          <Typography variant="h3" marginBottom={'0.5rem'}>
+          <Typography variant="h4" marginBottom={'0.5rem'}>
             Cookies:
           </Typography>
           <Typography marginBottom={'0.5rem'}>
             A cookie is a piece of software code that an internet web site sends to your browser when you access
             information at that site. This site does not use cookies.
           </Typography>
-          <Typography variant="h3" marginBottom={'0.5rem'}>
+          <Typography variant="h4" marginBottom={'0.5rem'}>
             Collection of Personal Information:
           </Typography>
           <Typography marginBottom={'0.5rem'}>
@@ -77,7 +77,7 @@ export default function Contact() {
             followed, or have any other comments on these principles, please notify the webmaster through the contact us
             page.
           </Typography>
-          <Typography variant="h3" marginBottom={'0.5rem'}>
+          <Typography variant="h4" marginBottom={'0.5rem'}>
             Note:
           </Typography>
           <Typography marginBottom={'0.5rem'}>
