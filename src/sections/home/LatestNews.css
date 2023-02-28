@@ -1,11 +1,12 @@
 .new-blink {
-  position: absolute;
-  right: 2rem;
-  top: 1rem;
-  padding: 0.4rem 0.8em;
-  background-color: red;
+  padding: 0.3rem 0.8em;
+  background-color: rgb(10, 134, 58);
   color: white;
-  transform: scale(0.8);
+  transform: scale(0.7);
+  font-size: 0.8em;
+  display: inline;
+  margin: 0 1rem;
+  border-radius: 222px;
 
   animation: blinker 1.3s ease infinite;
 }

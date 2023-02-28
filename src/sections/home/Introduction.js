@@ -5,7 +5,7 @@ export default function Introduction() {
   return (
     <Box>
       {/* <MotionInView variants={varFade().inUp}> */}
-      <Typography variant="h2">Introduction</Typography>
+      <Typography variant="h3">About NIMCET</Typography>
       {/* </MotionInView> */}
       {/* <MotionInView variants={varFade().inUp}> */}
       <Typography>

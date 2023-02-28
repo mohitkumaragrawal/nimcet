@@ -50,7 +50,7 @@ const ProformaAnnexures = () => {
       'https://drive.google.com/file/d/1O_jWho-ZPrkQm9NXp8pm1Z--SeNvIXxy/view?usp=sharing'
     ),
     createData(
-      'CERTIFICATE TO BE ISSUED BY THE HEAD OF THE INSTITUTION',
+      'Certificate To Be Issued By The Head Of The Institution',
       'https://drive.google.com/file/d/15ASqO-vaYhic-422F5uDE6uKh79fUIcO/view?usp=sharing'
     ),
   ];
