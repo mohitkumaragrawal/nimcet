@@ -69,7 +69,7 @@ export default function AboutWhat() {
             </Box>
             <Typography variant="p" component="p" align="justify">
               National Institute of Technology Jamshedpur is coordinating the All India NIT MCA Common Entrance test
-              2022 (NIMCET 2022) for admission to MCA program in 9 NITs. NITs are leading institutions for imparting
+              2023 (NIMCET 2023) for admission to MCA program in 9 NITs. NITs are leading institutions for imparting
               quality technical education in the country and are establishing as multidisciplinary institutions. Alumni
               of NITs have made their presence felt across the globe almost in every sphere of life. Graduates of Master
               of Computer Applications, a three-year post-graduate program in 9 NITs of the country are well placed in
@@ -78,10 +78,10 @@ export default function AboutWhat() {
               applications for many generations. Online counselling for admission to MCA program in NITs will be
               conducted in 4 rounds including one special round. All counselling activities including document
               verification will be online and the candidates need not to go to any institution for counselling. As
-              Chairman, NIMCET-2022, I wish all the candidates who have qualified NIMCET-2022 entrance test, a great
+              Chairman, NIMCET-2023, I wish all the candidates who have qualified NIMCET-2023 entrance test, a great
               future ahead. Also advise them to visit the official website of the participating institutions for more
               information. Further, I also appreciate all the national/institutional level committees for their untiring
-              efforts in making NIMCET-2022 admissions successful
+              efforts in making NIMCET-2023 admissions successful
             </Typography>
           </Grid>
 

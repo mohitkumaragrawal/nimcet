@@ -58,15 +58,6 @@ export default function MainHeader() {
 
   return (
     <AppBar sx={{ boxShadow: 0, bgcolor: 'transparent' }}>
-      {/* <BrandingStyle>
-        <div>LOGO</div>
-        <Box sx={{ display: 'flex', gap: '5px', flexDirection: 'column', alignItems: 'center' }}>
-          <Typography>राष्ट्रीय प्रौद्योगिकी संस्थान जमशेदपुर</Typography>
-          <Typography variant="h4">National Institute of Technology Jamshedpur</Typography>
-          <Typography>NIMCET Counselling and Admission Services for Session 2022</Typography>
-        </Box>
-        <div>LOGO2</div>
-      </BrandingStyle> */}
       <ToolbarStyle
         disableGutters
         sx={{

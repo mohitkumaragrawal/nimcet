@@ -1,0 +1,17 @@
+.new-blink {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  padding: 0.4rem 0.8em;
+  background-color: red;
+  color: white;
+  transform: scale(0.8);
+
+  animation: blinker 1.3s ease infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

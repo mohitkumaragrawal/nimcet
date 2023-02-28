@@ -38,23 +38,6 @@ function a11yProps(index) {
 }
 
 const eventData = [
-  // {
-  //   title: 'Special Round Counseling Brochure',
-  //   link: '/special-round-counseling-brochure',
-  //   lastUpdated: 'Updated on 06:10 AM of 5th August, 2022',
-  // },
-
-  // {
-  //   title: 'Tentative Vacancy Position for Special Round Counselling',
-  //   link: '/tentative-vacancy-position-for-special-round-counselling',
-  //   lastUpdated: 'Updated on 05:49 AM of 3rd August, 2022',
-  // },
-  // {
-  //   title:
-  //     'All candidates who have confirmed seats in NIMCET-2022 have to pay the partial admission fee (SC/ST/PwD: 20,000/-, GN/OBC/GN-EWS:30,000/-) during 28/07/2022 to 01/08/2022. Non Payment of partial admission fee will lead to cancellation of allotted seats.',
-  //   link: '#',
-  //   lastUpdated: 'Updated on 12:28 PM of 27th July, 2022',
-  // },
   {
     title:
       'Candidates have to pay the non-refundable Application Processing Fee (Rs. 2,500/- for OPEN/OPEN-EWS/OBC Category and Rs. 1,250/-for SC/ST/PwD Category) only through the provisions made in the NIMCET-2023 website before the final submission of the online application form.',
