@@ -27,8 +27,8 @@ const RootStyle = styled('div')(({ theme }) => ({
 
 const activities = [
   {
-    title: 'Special Round Seat Allocation Result',
-    link: 'https://admissions.nic.in/NIMCET/Applicant/root/Home.aspx?boardid=144012221',
+    title: 'Important Activity',
+    link: 'https://drive.google.com/file/d/1FVrfp-RlvXIFIRxvrChwze298VtKzriz/view?usp=sharing',
   },
 ];
 
@@ -42,11 +42,11 @@ const helpdeskAdmission = [
 const infoBulletin = [
   {
     title: 'Eligibility Criteria',
-    link: '#',
+    link: '/eligibility-criteria',
   },
   {
     title: 'Process/Business Rule',
-    link: '#',
+    link: 'https://drive.google.com/file/d/18p70B2b3N9QMhilsCtHBtFTtuMj4g25q/view?usp=sharing',
   },
 ];
 

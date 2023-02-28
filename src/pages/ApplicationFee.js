@@ -21,7 +21,7 @@ export default function ApplicationFee() {
     <Page title="Application Fee">
       <RootStyle>
         {/* <ContactHero /> */}
-        <Container sx={{ my: 10 }}>
+        <Container sx={{ my: 10, textAlign: 'justify' }}>
           {/* <Grid container spacing={10}>
             <Grid item xs={12} md={6}>
               <ContactForm />
