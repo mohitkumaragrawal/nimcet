@@ -26,7 +26,7 @@ export default function Contact() {
             Contact Us
           </Typography>
           <Typography variant="h6" marginBottom={'0.5rem'}>
-            The Secretary, NIMCET -2022
+            The Secretary, NIMCET -2023
           </Typography>
           <Typography marginBottom={'0.5rem'}>National Institute of Technology Jamshedpur</Typography>
           <Typography marginBottom={'0.5rem'}>Adityapur-2, Jamshedpur – 831014, Jharkhand</Typography>
@@ -36,7 +36,7 @@ export default function Contact() {
           </Typography>
           <Typography marginBottom={'15rem'}>
             <b>Email : </b>
-            nimcet2022@nitjsr.ac.in
+            nimcet2023@nitjsr.ac.in
           </Typography>
         </Container>
       </RootStyle>

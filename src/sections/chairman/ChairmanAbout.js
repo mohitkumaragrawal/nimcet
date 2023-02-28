@@ -42,19 +42,43 @@ export default function AboutWhat() {
 
   const isLight = theme.palette.mode === 'light';
   const shadow = `-40px 40px 80px ${alpha(isLight ? theme.palette.grey[500] : theme.palette.common.black, 0.48)}`;
-  function createData(Institute, website) {
-    return { Institute, website };
+  function createData(Institute, website, Contact) {
+    return { Institute, website, Contact };
   }
   const rows = [
-    createData('National Institute of Technology Jamshedpur', 'https://www.nitjsr.ac.in'),
-    createData('Motilal Nehru National Institute of TechnologyAllahabad', 'http://www.mnnit.ac.in'),
-    createData('Maulana Azad National Institute of Technology Bhopal', 'http://www.manit.ac.in'),
-    createData('National Institute of Technology Tiruchirapalli (Trichy)', 'https://www.nitt.edu'),
-    createData('National Institute of Technology Agartala', 'https://nita.ac.in'),
-    createData('National Institute of Technology Kurukshetra', 'http://www.nitkkr.ac.in'),
-    createData('National Institute of Technology Raipur', 'http://www.nitrr.ac.in'),
-    createData('National Institute of Technology Karnataka, Surathkal', 'https://www.nitk.ac.in'),
-    createData('National Institute of Technology Warangal', 'http://www.nitkkr.ac.in'),
+    createData(
+      'National Institute of Technology Jamshedpur',
+      'https://www.nitjsr.ac.in',
+      'E-mail: director@nitjsr.ac.in'
+    ),
+    createData(
+      'Motilal Nehru National Institute of TechnologyAllahabad',
+      'http://www.mnnit.ac.in',
+      'E-mail: director@mnnit.ac.in'
+    ),
+    createData(
+      'Maulana Azad National Institute of Technology Bhopal',
+      'http://www.manit.ac.in',
+      'Email Id: madhvishakya@yahoo.co.in'
+    ),
+    createData(
+      'National Institute of Technology Tiruchirapalli (Trichy)',
+      'https://www.nitt.edu',
+      'Email: director@nitt.edu'
+    ),
+    createData('National Institute of Technology Agartala', 'https://nita.ac.in', 'E-mail: nita.directorHumail.com'),
+    createData(
+      'National Institute of Technology Kurukshetra',
+      'http://www.nitkkr.ac.in',
+      'Email: dean_academic@nitkkr.ac.in'
+    ),
+    createData('National Institute of Technology Raipur', 'http://www.nitrr.ac.in', 'Email:director@nitrr.ac.in'),
+    createData(
+      'National Institute of Technology Karnataka, Surathkal',
+      'https://www.nitk.ac.in',
+      'Email: director@nitk.edu.in'
+    ),
+    createData('National Institute of Technology Warangal', 'http://www.nitkkr.ac.in', 'E-mail: director@nitw.ac.in'),
   ];
 
   return (
@@ -123,6 +147,7 @@ export default function AboutWhat() {
                 <TableRow>
                   <TableCell>Institute</TableCell>
                   <TableCell align="left">Website</TableCell>
+                  <TableCell align="left">Contact Details</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -140,6 +165,9 @@ export default function AboutWhat() {
                       >
                         {row.website}
                       </a>
+                    </TableCell>
+                    <TableCell component="th" scope="row">
+                      {row.Contact}
                     </TableCell>
                   </TableRow>
                 ))}

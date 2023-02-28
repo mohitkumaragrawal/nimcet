@@ -78,8 +78,8 @@ export default function MainHeader() {
 
           <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', color: 'text.primary' }}>
             {isDesktop && <Typography>राष्ट्रीय प्रौद्योगिकी संस्थान जमशेदपुर</Typography>}
-            <Typography variant={isDesktop ? 'h5' : 'h6'}>National Institute of Technology Jamshedpur</Typography>
-            <Typography variant="caption">NIMCET Counselling and Admission Services for Session 2023</Typography>
+            <Typography variant={isDesktop ? 'h5' : 'h6'}>NIT MCA Common Entrance test 2023(NIMCET)</Typography>
+            <Typography variant="caption">National Institute of Technology Jamshedpur</Typography>
           </Box>
 
           {isDesktop && <MenuDesktop isOffset={isOffset} isHome={false} navConfig={navConfig} />}

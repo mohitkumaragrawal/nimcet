@@ -19,7 +19,7 @@ const menuConfig = [
     path: '/',
   },
   {
-    title: 'Pages',
+    title: 'Menu',
     path: '/pages',
     icon: <Iconify icon={'eva:file-fill'} {...ICON_SIZE} />,
     children: [
@@ -71,8 +71,8 @@ const menuConfig = [
   },
   {
     title: 'Download Brochure',
-    // path: 'https://drive.google.com/file/d/1UPJcXpcWIQivmKrXbsUogpUNCz2FIRnI/view?usp=sharing',
-    path: '#',
+    path: 'https://drive.google.com/file/d/1ADBVQI0bxEzm560q9nDxzubYgssD8xcd/view?usp=sharing',
+    // path: '#',
   },
 ];
 
