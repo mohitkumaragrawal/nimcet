@@ -46,7 +46,7 @@ const infoBulletin = [
   },
   {
     title: 'Process/Business Rule',
-    link: 'https://drive.google.com/file/d/1ADBVQI0bxEzm560q9nDxzubYgssD8xcd/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/1gWvStjjSdKq0vnuXb175PR9e0k0LIJ9H/view?usp=sharing',
     // link: '#',
   },
 ];

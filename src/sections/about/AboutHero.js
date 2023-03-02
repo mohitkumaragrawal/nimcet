@@ -46,7 +46,7 @@ export default function AboutHero() {
           <TextAnimate text="About" sx={{ color: isLight ? 'black' : 'white' }} variants={varFade().inUp} />
           <br />
           <Box sx={{ display: 'inline-flex', color: 'common.white' }}>
-            <TextAnimate text="NIMSET" sx={{ mr: 2, color: isLight ? 'black' : 'white' }} />
+            <TextAnimate text="NIMCET" sx={{ mr: 2, color: isLight ? 'black' : 'white' }} />
             {/* <TextAnimate text="are?" /> */}
           </Box>
           {/* 

@@ -71,7 +71,7 @@ const menuConfig = [
   },
   {
     title: 'Download Brochure',
-    path: 'https://drive.google.com/file/d/1ADBVQI0bxEzm560q9nDxzubYgssD8xcd/view?usp=sharing',
+    path: 'https://drive.google.com/file/d/1gWvStjjSdKq0vnuXb175PR9e0k0LIJ9H/view?usp=sharing',
     // path: '#',
   },
 ];
