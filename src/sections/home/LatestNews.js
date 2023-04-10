@@ -14,7 +14,7 @@ export default function LatestNews() {
         <Stack direction={'column'} sx={{ gap: '1rem' }}>
           <Typography variant="h4">Latest News</Typography>
           <Typography>
-            Online Registration and Application form is available from 05/03/2023 (10:00 AM) to 10/04/2023 (5:00 PM)
+            Last date to apply for NIMCET 2023 is extended till 16 April 2023
             <div className="new-blink">NEW</div>
           </Typography>
         </Stack>
