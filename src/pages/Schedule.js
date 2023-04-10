@@ -23,7 +23,7 @@ const ProformaAnnexures = () => {
         <Download
           name="Schedule"
           title="Schedule"
-          link="https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2022/07/2022070668.pdf"
+          link="https://nitjsr.ac.in/backend/uploads/upload/nimcet/IMPORTANT%20DATES_final.pdf"
         />
       </RootStyle>
     </Page>

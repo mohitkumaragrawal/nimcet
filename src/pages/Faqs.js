@@ -27,7 +27,7 @@ export default function Faqs() {
           <Download
             name="FAQ"
             title={'FAQ'}
-            link={'https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2022/07/2022070854.pdf'}
+            // link={'https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2022/07/2022070854.pdf'}
           />
         </Container>
       </RootStyle>

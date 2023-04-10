@@ -12,7 +12,7 @@ export default function LatestNews() {
       <Stack direction={'row'} sx={{ gap: '2rem', alignItems: 'center' }}>
         <NewspaperIcon sx={{ fontSize: '3rem' }} />
         <Stack direction={'column'} sx={{ gap: '1rem' }}>
-          <Typography variant="h4">Latest News</Typography>
+        <Typography variant="h4">Latest News</Typography>
           <Typography>
             Last date to apply for NIMCET 2023 is extended till 16 April 2023
             <div className="new-blink">NEW</div>

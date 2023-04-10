@@ -8,7 +8,7 @@ export default function Introduction() {
       <Typography variant="h3">About NIMCET</Typography>
       {/* </MotionInView> */}
       {/* <MotionInView variants={varFade().inUp}> */}
-      <Typography>
+      <Typography align='justify'>
         National Institutes of Technology (NITs) are Institutions of National Importance Under Ministry of Education,
         Govt. of India. The NIMCET is a Common Entrance National Level Test, conducted by any of the NITs, for admission
         in to their MCA programme. The MCA programme is offered by NITs at Agartala, Allahabad, Bhopal, Jamshedpur,
@@ -16,9 +16,9 @@ export default function Introduction() {
         2023-24 in above 09 NITs is based on the Rank obtained in NIMCET-2023 only.
       </Typography>
 
-      <Button sx={{ mt: '1rem' }} variant="contained">
+      {/* <Button sx={{ mt: '1rem' }} variant="contained">
         View More
-      </Button>
+      </Button> */}
       {/* </MotionInView> */}
     </Box>
   );

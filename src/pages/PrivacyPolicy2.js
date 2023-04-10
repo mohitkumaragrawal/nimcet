@@ -22,7 +22,7 @@ export default function PrivacyPolicy2() {
         <Typography variant="h3" marginBottom={2}>
           Privacy Policy
         </Typography>
-        <Typography align="left">
+        <Typography align="justify">
           National Institutes of Technology (NITs) are Institutes of National Importance and are Centrally Funded
           Technical Institutes. The <b>NIT MCA Common Entrance Test (NIMCET)</b>, is a National Level Test conducted by
           NITs for admission to their Master of Computer Applications (MCA) programme. The admission to the MCA

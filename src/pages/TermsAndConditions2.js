@@ -22,7 +22,7 @@ export default function TermsandConditions() {
         <Typography variant="h3" marginBottom={2}>
           Terms and Conditions
         </Typography>
-        <Typography align="left">
+        <Typography align="justify">
           National Institutes of Technology (NITs) are Institutes of National Importance and are Centrally Funded
           Technical Institutes. The NIT MCA Common Entrance Test (NIMCET), is a National Level Test conducted by NITs
           for admission to their Master of Computer Applications (MCA) programme. The admission to the MCA programme to
