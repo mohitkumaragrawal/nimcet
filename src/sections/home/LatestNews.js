@@ -1,4 +1,4 @@
-import { Stack, Typography, Card } from '@mui/material';
+import { Stack, Typography, Card, Link } from '@mui/material';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
 
 import { MotionInView, varFade } from '../../components/animate';
@@ -12,11 +12,11 @@ export default function LatestNews() {
       <Stack direction={'row'} sx={{ gap: '2rem', alignItems: 'center' }}>
         <NewspaperIcon sx={{ fontSize: '3rem' }} />
         <Stack direction={'column'} sx={{ gap: '1rem' }}>
-        <Typography variant="h4">Latest News</Typography>
-          <Typography>
-            Last date to apply for NIMCET 2023 is extended till 16 April 2023
+          <Typography variant="h4">Latest News</Typography>
+          <Link href="https://cdn.digialm.com/EForms/configuredHtml/1042/82186/login.html" target="_blank">
+            NIMCET 2023 score card
             <div className="new-blink">NEW</div>
-          </Typography>
+          </Link>
         </Stack>
       </Stack>
     </Card>
