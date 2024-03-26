@@ -77,7 +77,7 @@ const Download = ({ name, title, link }) => {
                   >
                     {name}
                   </TableCell>
-                  <TableCell align="left">2023</TableCell>
+                  <TableCell align="left">2024</TableCell>
                   <TableCell align="left">
                     <a
                       style={{

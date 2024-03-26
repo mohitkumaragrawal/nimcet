@@ -31,16 +31,16 @@ export default function ApplicationFee() {
             </Grid>
           </Grid> */}
           <Typography variant="h3" marginBottom={'1rem'}>
-            APPLICATION PROCESSING FEE THROUGH NIMCET-2023 WEBSITE
+            APPLICATION PROCESSING FEE THROUGH NIMCET-2024 WEBSITE
           </Typography>
 
           <Typography marginBottom={'0.5rem'}>
-            The non-refundable Application Processing Fee for NIMCET-2023 test and counselling for admission to the MCA
+            The non-refundable Application Processing Fee for NIMCET-2024 test and counselling for admission to the MCA
             program is Rs. 2,500/- for OPEN/OPEN-EWS/OBC category and Rs. 1,250/- for SC/ST/PwD category candidates.
             Candidates have to deposit an appropriate amount relevant to their category
           </Typography>
           <Typography variant="h6">
-            <b>Candidates are required to deposit the processing fee online through NIMCET- 2023 website only.</b>
+            <b>Candidates are required to deposit the processing fee online through NIMCET- 2024 website only.</b>
           </Typography>
         </Container>
       </RootStyle>

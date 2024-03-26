@@ -145,7 +145,7 @@ function MenuMobileItem({ item, isOpen, onOpen }) {
       <ListItemButton
         component="a"
         variant="contained"
-        href="https://nitjsr.ac.in/backend/uploads/upload/nimcet/IB_NIMCET-2023_28Feb.pdf"
+        href="https://nitjsr.ac.in/backend/uploads/nimcet/2024/2024030436.pdf"
         download
       >
         {title}

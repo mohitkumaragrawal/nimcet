@@ -71,7 +71,7 @@ const menuConfig = [
   },
   {
     title: 'Download Brochure',
-    path: 'https://nitjsr.ac.in/backend/uploads/upload/nimcet/IB_NIMCET-2023_28Feb.pdf',
+    path: 'https://nitjsr.ac.in/backend/uploads/nimcet/2024/2024030436.pdf',
     // path: '#',
   },
 ];

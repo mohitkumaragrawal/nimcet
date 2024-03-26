@@ -13,8 +13,12 @@ export default function LatestNews() {
         <NewspaperIcon sx={{ fontSize: '3rem' }} />
         <Stack direction={'column'} sx={{ gap: '1rem' }}>
           <Typography variant="h4">Latest News</Typography>
-          <Link href="https://cdn.digialm.com/EForms/configuredHtml/1042/82186/login.html" target="_blank">
-            NIMCET 2023 score card
+          <Link href="https://cdn.digialm.com/EForms/configuredHtml/1042/88133/Registration.html" target="_blank">
+            Registration Link
+            <div className="new-blink">NEW</div>
+          </Link>
+          <Link href="https://cdn.digialm.com/EForms/configuredHtml/1042/88133/login.html" target="_blank">
+            Application Login Link
             <div className="new-blink">NEW</div>
           </Link>
         </Stack>

@@ -27,14 +27,14 @@ export default function TermsandConditions() {
           Technical Institutes. The NIT MCA Common Entrance Test (NIMCET), is a National Level Test conducted by NITs
           for admission to their Master of Computer Applications (MCA) programme. The admission to the MCA programme to
           the nine NITs at Agartala, Allahabad, Bhopal, Jamshedpur, Kurukshetra, Raipur, Surathkal, Tiruchirappalli
-          (Trichy), and Warangal for the year 2023-24 is based on the Rank obtained in NIMCET-2023 only. The Curriculum
+          (Trichy), and Warangal for the year 2024-25 is based on the Rank obtained in NIMCET-2024 only. The Curriculum
           and Syllabi of Master of Computer Applications (MCA) programme offered by NITs are designed considering the
           needs of different Information Technology firms in India and abroad. MCA graduates have high potential for
           jobs in the IT Sector. The detailed terms and conditions for eligibility, process, and schedule, etc. are
-          given in the Information Brochure for NIMCET-2023.
+          given in the Information Brochure for NIMCET-2024.
         </Typography>
         <Typography align="left" variant="h6" marginTop={3}>
-          Secretary, NIMCET-2023
+          Secretary, NIMCET-2024
         </Typography>
       </RootStyle>
     </Page>

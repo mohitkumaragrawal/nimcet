@@ -215,10 +215,18 @@ function MenuDesktopItem({ item, isHome, isOpen, isOffset, onOpen, onClose }) {
     );
   }
 
-  if (title === "Download Brochure")  {
+  if (title === 'Download Brochure') {
     return (
-      <Button component="a" variant="contained" href="https://nitjsr.ac.in/backend/uploads/upload/nimcet/IB_NIMCET-2023_28Feb.pdf" target="_blank" download>{title}</Button>
-    )
+      <Button
+        component="a"
+        variant="contained"
+        href="https://nitjsr.ac.in/backend/uploads/nimcet/2024/2024030436.pdf"
+        target="_blank"
+        download
+      >
+        {title}
+      </Button>
+    );
   }
 
   return (

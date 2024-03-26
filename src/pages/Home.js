@@ -28,7 +28,7 @@ const RootStyle = styled('div')(({ theme }) => ({
 const activities = [
   {
     title: 'Important Dates',
-    link: 'https://nitjsr.ac.in/backend/uploads/upload/nimcet/IMPORTANT%20DATES_final.pdf',
+    link: 'https://nitjsr.ac.in/backend/uploads/nimcet/2024/IMPORTANT%20DATES_2024.pdf',
   },
 ];
 

@@ -27,19 +27,19 @@ export default function PrivacyPolicy2() {
           Technical Institutes. The <b>NIT MCA Common Entrance Test (NIMCET)</b>, is a National Level Test conducted by
           NITs for admission to their Master of Computer Applications (MCA) programme. The admission to the MCA
           programme to the nine NITs at Agartala, Allahabad, Bhopal, Jamshedpur, Kurukshetra, Raipur, Surathkal,
-          Tiruchirappalli (Trichy), and Warangal for the year 2023-24 is based on the{' '}
-          <b>Rank obtained in NIMCET-2023</b> only. The Curriculum and Syllabi of Master of Computer Applications (MCA)
+          Tiruchirappalli (Trichy), and Warangal for the year 2024-25 is based on the{' '}
+          <b>Rank obtained in NIMCET-2024</b> only. The Curriculum and Syllabi of Master of Computer Applications (MCA)
           programme offered by NITs are designed considering the needs of different Information Technology firms in
           India and abroad. MCA graduates have high potential for jobs in the IT Sector. This website and the hosted
-          applications are meant for application capture, entrance examination (NIMCET-2023) and counseling (choice
+          applications are meant for application capture, entrance examination (NIMCET-2024) and counseling (choice
           filling, seat allocation and document verification, etc.) for admission to MCA programme offered by ten
           participating NITs of the country. The data captured from the candidates shall be used solely for the purpose
-          of conducting examination (NIMCET -2023), result declaration, choice filling, reporting and admission to MCA
+          of conducting examination (NIMCET -2024), result declaration, choice filling, reporting and admission to MCA
           programmes of ten participating NITs and shall not be disclosed to the third parties until otherwise necessary
           to conduct examination, counseling, admission, etc., for the benefit of the candidate.
         </Typography>
         <Typography align="left" variant="h6" marginTop={3}>
-          Secretary, NIMCET-2023
+          Secretary, NIMCET-2024
         </Typography>
       </RootStyle>
     </Page>

@@ -29,7 +29,7 @@ const EligibilityCriteria = () => {
               textAlign: 'justify',
             }}
           >
-            <Typography variant="h3">ELIGIBILITY CRITERIA TO APPEAR FOR NIMCET 2023</Typography>
+            <Typography variant="h3">ELIGIBILITY CRITERIA TO APPEAR FOR NIMCET 2024</Typography>
             <Container sx={{ my: 8, width: '70%' }}>
               <Typography
                 sx={{
@@ -50,7 +50,7 @@ const EligibilityCriteria = () => {
               </Typography>
               <Typography variant="h6">
                 <b>
-                  (ii) B.E./ B.Tech. from a recognized University/Institution are eligible to appear for NIMCET-2023.
+                  (ii) B.E./ B.Tech. from a recognized University/Institution are eligible to appear for NIMCET-2024.
                 </b>
               </Typography>
               <br />
@@ -62,11 +62,11 @@ const EligibilityCriteria = () => {
               </ul>
               <br />
               <Typography variant="p">
-                Candidates who are appearing for the qualifying examination are also eligible to apply for NIMCET-2023
+                Candidates who are appearing for the qualifying examination are also eligible to apply for NIMCET-2024
                 and such candidates shall have to furnish the proof (in the form of a certificate issued by the Head of
                 institution where the candidate has been studying / has studied) of candidature for appearing in the
-                examinations during the academic year 2023-23 All candidates shall submit the proof of fulfilling the
-                eligibility criteria of NIMCET- 2023 at the time of Counseling/Admission but not later than 15/09/2023
+                examinations during the academic year 2024-23 All candidates shall submit the proof of fulfilling the
+                eligibility criteria of NIMCET- 2024 at the time of Counseling/Admission but not later than 15/09/2024
                 (Friday), failing which their admission is liable to be cancelled by the respective NITs.
               </Typography>
               <br />

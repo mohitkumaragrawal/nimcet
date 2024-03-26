@@ -40,9 +40,9 @@ function a11yProps(index) {
 const eventData = [
   {
     title:
-      'Candidates have to pay the non-refundable Application Processing Fee (Rs. 2,500/- for OPEN/OPEN-EWS/OBC Category and Rs. 1,250/-for SC/ST/PwD Category) only through the provisions made in the NIMCET-2023 website before the final submission of the online application form.',
+      'Candidates have to pay the non-refundable Application Processing Fee (Rs. 2,500/- for OPEN/OPEN-EWS/OBC Category and Rs. 1,250/-for SC/ST/PwD Category) only through the provisions made in the NIMCET-2024 website before the final submission of the online application form.',
     link: '#',
-    lastUpdated: 'Updated on 12:28 PM of 28th Feb, 2023',
+    lastUpdated: 'Updated on 12:28 PM of 28th Feb, 2024',
   },
 ];
 
