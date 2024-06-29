@@ -38,7 +38,7 @@ export default function Contact() {
               </Typography>
               <Typography marginBottom={'15rem'}>
                 <b>Email : </b>
-                nimcet2023@nitjsr.ac.in
+                nimcet2024@nitjsr.ac.in
               </Typography>
             </div>
             <div>

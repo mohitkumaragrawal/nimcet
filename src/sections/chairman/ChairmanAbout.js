@@ -88,7 +88,7 @@ export default function AboutWhat() {
           <Grid item xs={12} md={7} lg={8}>
             <Box marginBottom={2}>
               <Typography variant="h3">Message from Chairman, NIMCET - 2024</Typography>
-              <Typography variant="h5">PROF. KARUNESH KUMAR SHUKLA</Typography>
+              <Typography variant="h5">Prof. Goutam Sutradhar</Typography>
               <Typography variant="h6">Director, NIT Jamshedpur</Typography>
             </Box>
             <Typography variant="p" component="p" align="justify">
@@ -111,7 +111,7 @@ export default function AboutWhat() {
 
           <Grid item xs={12} md={5} lg={4}>
             <Image
-              src="https://cdnbbsr.s3waas.gov.in/s33e6260b81898beacda3d16db379ed329/uploads/2022/07/2022070747.jpg"
+              src="https://www.nitjsr.ac.in/static/media/director.5dd2bd73.jpg"
               sx={{
                 borderRadius: 2,
                 boxShadow: shadow,

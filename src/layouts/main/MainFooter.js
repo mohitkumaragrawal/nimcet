@@ -32,7 +32,7 @@ const LINKS = [
   {
     headline: 'Contact',
     children: [
-      { name: 'nimcet2023@nitjsr.ac.in', href: '#' },
+      { name: 'nimcet2024@nitjsr.ac.in', href: '#' },
       { name: 'National Institute of Technology Jamshedpur', href: 'https://www.nitjsr.ac.in/' },
     ],
   },
